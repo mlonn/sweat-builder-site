@@ -1,0 +1,11 @@
+README.md
+CNAME
+worker.js
+.gitignore
+.assetsignore
+wrangler.jsonc
+.wrangler
+.git
+.claude
+.DS_Store
+.idea

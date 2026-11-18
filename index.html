@@ -1,18 +1,91 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sweat Builder</title>
-<style>
-  :root { color-scheme: light dark; }
-  body { font: 17px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; max-width: 40rem;
-         margin: 0 auto; padding: 2rem 1rem; }
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sweat Builder</title>
+  <meta name="description" content="Build your own interval workouts and training plans, and run them on iPhone and Apple Watch." />
+  <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
-<h1>Sweat Builder</h1>
-<p>Interval workouts and training plans for iPhone and Apple Watch.</p>
-<p><a href="privacy">Privacy Policy</a></p>
+  <main>
+    <img class="hero-icon" src="/icon.svg" alt="" width="88" height="88" />
+    <p class="eyebrow">iPhone + Apple Watch</p>
+    <h1>Sweat Builder<span class="dot">.</span></h1>
+    <p class="lead">Interval workouts and training plans for people who like to plan their own training. Build the workouts you want, put them into plans, and follow them week by week.</p>
+    <ul class="chips" aria-label="Works with">
+      <li>iPhone</li>
+      <li>Apple Watch</li>
+      <li>Apple Health</li>
+      <li>iCloud</li>
+    </ul>
+
+    <h2 class="section-title">What it does</h2>
+    <ul class="features">
+      <li class="feature surface">
+        <h3>Build your workouts</h3>
+        <p>Rounds, supersets, circuits, AMRAPs and EMOMs. Intervals are timed, reps, reps within a time, or open until you tap Done.</p>
+      </li>
+      <li class="feature surface">
+        <h3>Describe it</h3>
+        <p>Say what you want, like “30 min lower body with dumbbells”, and Apple Intelligence writes it into the builder, on your iPhone.</p>
+      </li>
+      <li class="feature surface">
+        <h3>Follow a plan</h3>
+        <p>Put workouts together into multi-week plans or import a plan file. Join part-way, pause, and queue the next plan.</p>
+      </li>
+      <li class="feature surface">
+        <h3>One calendar</h3>
+        <p>Every week, past and coming, in one scrolling list. Add one-off workouts to any day and keep the Calendar app in step.</p>
+      </li>
+      <li class="feature surface">
+        <h3>On your wrist</h3>
+        <p>Run workouts on Apple Watch with haptics, heart rate and energy, and follow along live on the iPhone.</p>
+      </li>
+      <li class="feature surface">
+        <h3>Widgets</h3>
+        <p>Complications, Smart Stack widgets and a Live Activity on the lock screen while a workout runs.</p>
+      </li>
+      <li class="feature surface">
+        <h3>Your exercises</h3>
+        <p>Demo photos, YouTube videos, notes and the equipment each one needs, linked from every workout that uses it.</p>
+      </li>
+      <li class="feature surface">
+        <h3>Health &amp; Strava</h3>
+        <p>Finished workouts are saved to Health and Fitness, and can go to Strava with their heart rate and energy.</p>
+      </li>
+      <li class="feature surface">
+        <h3>Share &amp; sync</h3>
+        <p>Send a plan or workout as a file over AirDrop or Messages. Your library syncs between your devices with iCloud.</p>
+      </li>
+      <li class="feature surface">
+        <h3>Shop</h3>
+        <p>Optional plans and workout and exercise packs, bought once and shared with your family.</p>
+      </li>
+    </ul>
+
+    <div class="privacy surface">
+      <h3>Private by design</h3>
+      <p>No accounts, no ads, no tracking.</p>
+      <a class="more" href="/privacy">Privacy Policy →</a>
+    </div>
+  </main>
+
+  <footer>
+    <a href="https://losell.nu/apps">← More apps at losell.nu</a>
+    <nav aria-label="Site">
+      <a href="/privacy">Privacy</a>
+      <a href="mailto:mikael@lonn.xyz">Contact</a>
+      <span>© <span id="year">2026</span> Mikael Lönn</span>
+    </nav>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
