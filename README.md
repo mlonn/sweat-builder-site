@@ -6,7 +6,7 @@ The website for Sweat Builder, the iPhone and Apple Watch app: a home page (`ind
 
 ## Publishing
 
-The site runs as the Cloudflare Worker `sweatbuilder` (see `wrangler.jsonc`), on the custom domain
+The site runs as the Cloudflare Worker `sweat-builder-site` (see `wrangler.jsonc`), on the custom domain
 `sweatbuilder.losell.nu`. Workers Builds is connected to this repo, so a push to `main` publishes it with
 `npx wrangler deploy`. Only the site's files are uploaded; the rest is listed in `.assetsignore`.
 
